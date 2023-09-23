@@ -9,6 +9,7 @@ import { SystemTtsProvider } from './system.js'
 import { NovelTtsProvider } from './novel.js'
 import { power_user } from '../../power-user.js'
 import { rvcVoiceConversion } from "../rvc/index.js"
+import { TortoiseTtsProvider } from "./tortoise.js"
 export { talkingAnimation };
 
 const UPDATE_INTERVAL = 1000
